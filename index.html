@@ -1,5 +1,121 @@
-<section>
-    <h1>Welcome to My Favorite Things</h1>
-    <img src="" alt="">
-    <p>Discover a collection of my favorite things that bring joy and inspiration to my life</p>
-</section>
+<style>
+  body {
+    background-color: rgb(250, 247, 240);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+
+  section {
+  margin-bottom: 40px;
+}
+
+  .container{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .hero {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .heroimage{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .discover {
+    text-align: center;
+    font-size: medium;
+    margin-top: 15px;
+  }
+
+  .favorite, .favorite2{
+    display: flex;
+    text-align: center;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .book, .verse, .gospel, .hobby , .limit, .hobby{
+    padding: 25px 25px;
+    color: white; 
+    border-radius: 10px; 
+    font-weight: bold;
+  }
+
+  .book{
+    background-color: rgb(254, 194, 96);
+  }
+
+  .verse{
+    background-color: rgb(255, 131, 96);
+  }
+
+  .gospel{
+    background-color: rgb(124, 124, 124);
+  }
+
+  .limit{
+    background-color: rgb(124, 124, 124);
+    font-size: italic;
+  }
+
+  .hobby{
+    background-color: rgb(124, 124, 124);
+  }
+
+</style>
+
+<div class="container">
+  <section>
+    <h1 class="hero">
+      Welcome to <br />
+      My Favorite Things
+    </h1>
+    <img src="https://m.media-amazon.com/images/I/61evjdQLbnL._AC_UL750_FMwebp_QL65_.jpg" alt="" class="heroimage" />
+    <p class="discover">
+      Discover a collection of my favorite things <br />
+      that bring joy and inspiration to my life
+    </p>
+  </section>
+  
+  <section >
+    <div class="favorite">
+      <p class="book">
+        Favorite Book <br />
+        The Great Gatsby
+      </p>
+      <p class="verse">Favorite Verse</p>
+      <p class="gospel">
+        Favorite Gospel <br />
+        Imagine
+      </p>
+    </div>
+  
+    <div class="favorite2">
+      <p class="limit">The only limit to our realization of tomorrow is our doubts of today.</p>
+      <p class="hobby">
+        Hobby <br />
+        Painting
+      </p>
+    </div>
+    <hr />
+    <div >
+      <h2 class="about">About Me</h2>
+      <p class="hi">Hi, I'm Zebiba,</p>
+      <img src="" alt="">
+    </div>
+    <hr />
+    <div>
+      <h3>Contact</h3>
+      <p>Feel free to reach out to me!</p>
+    </div>
+  </section>
+  
+</div>
